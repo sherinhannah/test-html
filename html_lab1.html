@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>HTML lab question1</title>
+		<h3>Please fill in the form </h3>
+<!--<style>
+input {
+ background:#0fb;
+}-->
+</style>
+	</head>
+	<body>
+		<form action="C:\Users\Acer\Desktop\HTML\home.html" target="_blank" method="get">
+			  <label for="name"><b>Name:</b></label><br>
+  			<input type="text" placeholder="Enter Name" id="name" name="name" maxlength="25" required><br><br>
+  			<label for="email"><b>Email:</b></label><br>
+  			<input type="text" id="email" name="email" value="test@example.com" required autofocus><br><br>
+  			<label for="password"><b>Password</b></label><br>
+    		<input type="password" name="password" minlength="6" required><br><br>
+    		<label for="category"><b>Choose a Category:</b></label><br>
+  			<select name="category" id="category" required>
+    			<option value="student">Student</option>
+    			<option value="employee">Employee</option>
+    			<option value="freelancer" selected>Freelancer</option>
+ 		    </select>
+  			<br><br>
+  			<label for="eventDate"><b>Event Date:</b></label><br>
+  			<input type="date" id="eventDate" name="eventDate" required><br><br>
+  			<p><b>Please select the number of tickets:</b></p>
+  				<input type="radio" id="tickets1" name="Tickets" value="tickets1">
+  				<label for="tickets1">1 ticket</label><br>
+  				<input type="radio" id="tickets2" name="Tickets" value="tickets2" checked>
+  				<label for="tickets2">2 tickets</label><br>
+  				<input type="radio" id="tickets3" name="Tickets" value="tickets3">
+  				<label for="tickets3">3 tickets</label><br><br>
+  			<input type="checkbox" id="onlinePayment" name="onlinePayment" value="Payment" required>
+  			<label for="onlinePayment"> Online Payment</label><br><br>
+  			<label for="notes"><b>Notes:</b></label><br>
+  			<textarea id="notes" placeholder="Enter the notes here" name="notes" rows="4" cols="50"></textarea><br><br>
+  			<input type="submit" value="Submit">
+
+
+
+
+		</form>
+	</body>
+
+</html>
